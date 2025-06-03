@@ -1,0 +1,9 @@
+# Odoo specific ignores
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+*.log
+.coverage
+.project
+.settings
+.idea/ # If you use PyCharm within custom_addons directly
