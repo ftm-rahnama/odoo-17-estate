@@ -1,9 +1,13 @@
-# Odoo specific ignores
+# Python
 *.pyc
 __pycache__/
-.ipynb_checkpoints/
+venv/
+
+# Odoo specific
 *.log
-.coverage
-.project
-.settings
-.idea/ # If you use PyCharm within custom_addons directly
+.csv
+.idea/ # PyCharm project files
+
+# Common temporary files
+*.swp
+*~
